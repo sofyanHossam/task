@@ -1,7 +1,7 @@
-package com.example.thetask.repository
+package com.example.thetask.data.repository
 
-import com.example.thetask.model.Post
-import com.example.thetask.network.ApiService
+import com.example.thetask.data.model.Post
+import com.example.thetask.data.network.ApiService
 import retrofit2.Response
 import javax.inject.Inject
 

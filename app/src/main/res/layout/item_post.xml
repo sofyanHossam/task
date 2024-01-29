@@ -7,7 +7,7 @@
     <data>
         <variable
             name="post"
-            type="com.example.thetask.model.Post" />
+            type="com.example.thetask.data.model.Post" />
     </data>
 
 

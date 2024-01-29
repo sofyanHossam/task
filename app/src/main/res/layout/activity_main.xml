@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:padding="@dimen/_16sdp"
     android:background="#E9FFFFFF"
-    tools:context=".activities.MainActivity">
+    tools:context=".presention.activities.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"

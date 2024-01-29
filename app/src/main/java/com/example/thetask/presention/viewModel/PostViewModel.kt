@@ -1,12 +1,12 @@
-package com.example.thetask.viewModel
+package com.example.thetask.presention.viewModel
 
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.thetask.model.Post
-import com.example.thetask.repository.PostRepository
+import com.example.thetask.data.model.Post
+import com.example.thetask.data.repository.PostRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

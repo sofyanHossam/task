@@ -1,4 +1,4 @@
-package com.example.thetask.activities
+package com.example.thetask.presention.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,8 +9,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.thetask.R
-import com.example.thetask.adapter.PostAdapter
-import com.example.thetask.viewModel.PostViewModel
+import com.example.thetask.presention.adapter.PostAdapter
+import com.example.thetask.presention.viewModel.PostViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

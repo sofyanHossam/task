@@ -1,4 +1,4 @@
-package com.example.thetask.activities
+package com.example.thetask.presention.activities
 
 import androidx.appcompat.app.AppCompatActivity
 
@@ -8,7 +8,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import com.example.thetask.R
-import com.example.thetask.viewModel.PostViewModel
+import com.example.thetask.presention.viewModel.PostViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

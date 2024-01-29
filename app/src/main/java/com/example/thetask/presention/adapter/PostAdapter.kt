@@ -1,12 +1,11 @@
-package com.example.thetask.adapter
+package com.example.thetask.presention.adapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.thetask.databinding.ItemPostBinding
-import com.example.thetask.model.Post
+import com.example.thetask.data.model.Post
 
 // PostAdapter.kt
 class PostAdapter(private val onItemClickListener: (Int) -> Unit) : RecyclerView.Adapter<PostAdapter.PostViewHolder>() {

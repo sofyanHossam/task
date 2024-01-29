@@ -1,4 +1,4 @@
-package com.example.thetask.model
+package com.example.thetask.data.model
 
 // Post.kt
 data class Post(

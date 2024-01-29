@@ -1,6 +1,6 @@
 package com.example.thetask.di
 
-import com.example.thetask.network.ApiService
+import com.example.thetask.data.network.ApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

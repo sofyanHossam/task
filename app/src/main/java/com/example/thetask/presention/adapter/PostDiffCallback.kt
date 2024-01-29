@@ -1,7 +1,7 @@
-package com.example.thetask.adapter
+package com.example.thetask.presention.adapter
 
 import androidx.recyclerview.widget.DiffUtil
-import com.example.thetask.model.Post
+import com.example.thetask.data.model.Post
 
 class PostDiffCallback(private val oldList: List<Post>, private val newList: List<Post>) : DiffUtil.Callback() {
 
