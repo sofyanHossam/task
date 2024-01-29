@@ -3,6 +3,7 @@ package com.example.thetask.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.thetask.databinding.ItemPostBinding
 import com.example.thetask.model.Post
@@ -12,9 +13,11 @@ class PostAdapter(private val onItemClickListener: (Int) -> Unit) : RecyclerView
 
     private var posts: List<Post> = emptyList()
 
-    fun setPosts(posts: List<Post>) {
-        this.posts = posts
-        notifyDataSetChanged()
+    fun setPosts(newPosts: List<Post>) {
+        val diffResult = DiffUtil.calculateDiff(PostDiffCallback(posts, newPosts))
+        posts = newPosts
+
+        diffResult.dispatchUpdatesTo(this)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {

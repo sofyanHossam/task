@@ -34,9 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         postViewModel = ViewModelProvider(this)[PostViewModel::class.java]
         postViewModel.posts.observe(this, Observer { posts ->
-            posts?.let {
-                postAdapter.setPosts(it)
-            }
+            postAdapter.setPosts(posts)
         })
 
         postViewModel.getPosts()

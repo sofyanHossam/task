@@ -13,7 +13,11 @@
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:text="sdmklfjgvkdhklfkgbldnfkjlnbgkjfrnjbngj"
+        android:padding="@dimen/_8sdp"
         app:layout_constraintTop_toTopOf="parent"
+        android:background="#92000000"
+        android:textColor="#FFF"
        />
 
     <TextView
@@ -22,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/titleTextView"
         android:layout_marginTop="@dimen/_8sdp"
+        android:padding="@dimen/_10sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
