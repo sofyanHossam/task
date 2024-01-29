@@ -1,4 +1,4 @@
-package com.example.thetask.di
+package com.example.thetask.app.di
 
 import com.example.thetask.data.network.ApiService
 import dagger.Module

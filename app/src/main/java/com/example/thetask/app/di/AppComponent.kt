@@ -1,4 +1,4 @@
-package com.example.thetask.di
+package com.example.thetask.app.di
 
 import android.app.Application
 import dagger.Component
